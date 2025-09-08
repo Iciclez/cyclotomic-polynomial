@@ -4,7 +4,7 @@
 #include <unordered_map>
 
 
-TEST(cyclotomic_polynomial_unittest, cyclotomic_polynomial) {
+TEST(cyclotomic_polynomial_test, cyclotomic_polynomial) {
     std::unordered_map<uint32_t, std::vector<int32_t>> solutions {
         {1, {1, -1}},
         {2, {1, 1}},
